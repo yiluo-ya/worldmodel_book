@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 实验中间数据（由 exp01 / run_all.py 重新生成，约 18 MB）
+out/*.npz
+out/_*.png
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

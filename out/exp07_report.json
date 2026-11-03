@@ -1,0 +1,17 @@
+{
+  "lyapunov_per_s": 1.7079395440907275,
+  "system_scale": 10.876582431877315,
+  "eps": 1e-08,
+  "t_pred_perfect_s": 12.182686965302409,
+  "eps_model": 0.3474367144679735,
+  "t_pred_model_s": 1.610500590331012,
+  "lambda_eff_from_error": 8.369424476855857,
+  "one_step_nrmse": 0.03194355549126338,
+  "h50": 0.3172088338505676,
+  "h100": 0.5872229458745186,
+  "h_final": 0.9213208739212285,
+  "steps_to_half_sigma": 87,
+  "t_to_half_sigma_s": 0.17400000000000002,
+  "energy_drift_true_max": 3.413814238533698e-08,
+  "energy_drift_model_max": 0.2508693506153005
+}

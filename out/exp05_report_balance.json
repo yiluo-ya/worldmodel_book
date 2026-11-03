@@ -1,0 +1,42 @@
+{
+  "random": {
+    "cost": 2300.7821502106917,
+    "tail_angle_mean": 1.1234166177035154,
+    "tail_angle_max": 1.3896426507258344,
+    "cart_offset_end": 1.2261552682045094,
+    "solved": false,
+    "wall_time_s": 0.0
+  },
+  "wrong-model": {
+    "cost": 2844.6465001503143,
+    "tail_angle_mean": 2.1677380768312475,
+    "tail_angle_max": 2.7190691011077326,
+    "cart_offset_end": 1.3567677952543404,
+    "solved": false,
+    "wall_time_s": 13.9
+  },
+  "linear": {
+    "cost": 4486.641306014214,
+    "tail_angle_mean": 3.0196894194054384,
+    "tail_angle_max": 3.0878988882644407,
+    "cart_offset_end": 3.0973604923788116,
+    "solved": false,
+    "wall_time_s": 0.7
+  },
+  "mlp": {
+    "cost": 3281.6998725062112,
+    "tail_angle_mean": 2.385737032219129,
+    "tail_angle_max": 2.8273233088048544,
+    "cart_offset_end": 0.3014028169545925,
+    "solved": false,
+    "wall_time_s": 15.3
+  },
+  "analytic": {
+    "cost": 247.0149219573777,
+    "tail_angle_mean": 0.07526779476960632,
+    "tail_angle_max": 0.08520072172804144,
+    "cart_offset_end": 2.6841208639526806,
+    "solved": true,
+    "wall_time_s": 7.4
+  }
+}

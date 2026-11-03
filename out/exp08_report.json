@@ -1,0 +1,65 @@
+{
+  "model_openloop_nrmse_h50": 0.539944449125762,
+  "routes": [
+    {
+      "policy": "A random-search",
+      "real_cost": 0.07689372612362878,
+      "tail_angle_max": 0.1767476567809335,
+      "solved": false,
+      "imagined_evals": 60,
+      "wall_time_s": 1.5,
+      "k": [
+        -0.465,
+        1.989,
+        57.7,
+        1.484,
+        3.611
+      ]
+    },
+    {
+      "policy": "B CEM on real",
+      "real_cost": 0.02072836419021822,
+      "tail_angle_max": 0.10809004797993682,
+      "solved": true,
+      "imagined_evals": 480,
+      "wall_time_s": 11.9,
+      "k": [
+        2.0,
+        1.053,
+        60.0,
+        2.943,
+        7.064
+      ]
+    },
+    {
+      "policy": "C1 CEM perfect model",
+      "real_cost": 0.02072836419021822,
+      "tail_angle_max": 0.10809004797993682,
+      "solved": true,
+      "imagined_evals": 480,
+      "wall_time_s": 68.7,
+      "k": [
+        2.0,
+        1.053,
+        60.0,
+        2.943,
+        7.064
+      ]
+    },
+    {
+      "policy": "C2 CEM learned model",
+      "real_cost": 46.62941480833696,
+      "tail_angle_max": 3.1176065789240615,
+      "solved": false,
+      "imagined_evals": 192,
+      "wall_time_s": 3.6,
+      "k": [
+        -1.27,
+        -0.863,
+        2.144,
+        -3.856,
+        10.173
+      ]
+    }
+  ]
+}

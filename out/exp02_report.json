@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "dt": 0.002,
+      "steps_per_sec": 500.0,
+      "one_step_nrmse": 0.007383265887448372,
+      "openloop_1s_nrmse": 1.2698729702859388
+    },
+    {
+      "dt": 0.01,
+      "steps_per_sec": 100.0,
+      "one_step_nrmse": 0.027187879129349418,
+      "openloop_1s_nrmse": 0.9804566472016054
+    },
+    {
+      "dt": 0.05,
+      "steps_per_sec": 20.0,
+      "one_step_nrmse": 0.09378893952646074,
+      "openloop_1s_nrmse": 0.7210798791115006
+    }
+  ]
+}

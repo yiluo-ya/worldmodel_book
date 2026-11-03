@@ -1,0 +1,38 @@
+{
+  "obs_dim": 2304,
+  "latent": 96,
+  "pca_explained": 0.9811710268706497,
+  "probe_x_rmse": 0.18746936552982923,
+  "probe_theta_rmse": 0.4335078664611039,
+  "one_step_pixel_rmse_fg": 0.05305283696394022,
+  "roll20_image_rmse": {
+    "latent": 0.27624822681367195,
+    "latent+clamp": 0.24800448881152312,
+    "pixel": 0.3286654369725115,
+    "freeze": 0.2373575062149065
+  },
+  "roll20_angle_err": {
+    "latent": 0.5193074852357669,
+    "latent+clamp": 0.5240281878157546,
+    "pixel": 0.5617267067100793,
+    "freeze": 0.6663169818197301
+  },
+  "roll20_sharpness_ratio": {
+    "latent": 3.7771526350526186,
+    "latent+clamp": 2.2263380428234854,
+    "pixel": 7.004586077537279,
+    "freeze": 1.174497377558601
+  },
+  "rank_by_pixels": [
+    "freeze",
+    "latent+clamp",
+    "latent",
+    "pixel"
+  ],
+  "rank_by_angle": [
+    "latent",
+    "latent+clamp",
+    "pixel",
+    "freeze"
+  ]
+}
